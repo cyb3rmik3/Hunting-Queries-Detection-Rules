@@ -9,12 +9,12 @@
 | T1021.002 | Remote Services: SMB/Windows Admin Shares|https://attack.mitre.org/techniques/T1021/002|
 
 #### Description
-Adversaries can use SMB to upload files to remote shares or to interact with files on those shares. A common technique is to upload malcious to remote host. This query detects all SMB file copies. In order to run the query effectively add the benign accounts the the whitelist.
+Adversaries can use SMB to upload files to remote shares or to interact with files on those shares. A common technique is to upload malicious files to a remote host. This query detects all SMB file copies. In order to run the query effectively add the benign accounts at the whitelist.
 
-A false positive would be a aministrator that would perform legitimate SMB file copies. 
+A false positive would be an administrator that would perform legitimate SMB file copies. 
 
 #### Risk
-A actor uses a SMB file copy to distrubute malware in your environment. 
+An actor uses an SMB file copy to distrubute malware in your environment. 
 
 ## Defender For Endpoint
 
