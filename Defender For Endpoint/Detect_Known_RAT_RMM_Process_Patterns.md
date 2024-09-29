@@ -9,7 +9,7 @@
 | T1219 | Remote Access Software | [Link](https://attack.mitre.org/techniques/T1219/) |
 
 #### Description
-Hypothesis: Attackers will eventually leverage legitimate desktop support and remote access tools (RATs) to establish an interactive command and control channel to target systems within networks. The patterns were based on this excelent resource and might need an update upon usage given that more patterns should have been added: https://github.com/0x706972686f/RMM-Catalogue 
+Hypothesis: Attackers will eventually leverage legitimate desktop support and remote access tools (RATs) to establish an interactive command and control channel to target systems within networks. The patterns were based on this excellent resource and might need an update upon usage given that more patterns should have been added: https://github.com/0x706972686f/RMM-Catalogue 
 
 Also, consider checking the additional resources and references below for getting inspired to create behavioral or anomaly based detection instead of simple pattern based, like this one.
 
